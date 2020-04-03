@@ -56,58 +56,53 @@ int main()
 	printf("\t\t\t|_____________|\n\n");
 	printf("\n\t\t\tHAPPY BIRTHDAY！\n\n");
 	printf("× × × × × × × × × × × × × × × × × × × × × × × × ×\n");
-	
+int T = 3;
+while (T--)
+{
+    Beep(C5, HalfBeat);
+    Beep(C5, HalfBeat);
+    Beep(C6, OneBeat);
+    Beep(C5, OneBeat);
+    Beep(D1, OneBeat);
+    Beep(C7, OneBeat * 2);
 
-    int T = 3;
-    while (T--)
-    {
-        Beep(C5, HalfBeat);
-        Beep(C5, HalfBeat);
-        Beep(C6, OneBeat);
-        Beep(C5, OneBeat);
-        Beep(D1, OneBeat);
-        Beep(C7, OneBeat * 2);
-    
-        Beep(C5, HalfBeat);
-        Beep(C5, HalfBeat);
-        Beep(C6, OneBeat);
-        Beep(C5, OneBeat);
-        Beep(D2, OneBeat);
-        Beep(D1, OneBeat * 2);
-    
-        Beep(C5, HalfBeat);
-        Beep(C5, HalfBeat);
-        Beep(D5, OneBeat);
-        Beep(D3, OneBeat);
-        Beep(D1, OneBeat);
-        Beep(C7, OneBeat);
-    
-        Beep(D4, HalfBeat);
-        Beep(D4, HalfBeat);
-        Beep(D3, OneBeat);
-        Beep(D1, OneBeat);
-        Beep(D2, OneBeat);
-        Beep(D1, OneBeat * 2);
+    Beep(C5, HalfBeat);
+    Beep(C5, HalfBeat);
+    Beep(C6, OneBeat);
+    Beep(C5, OneBeat);
+    Beep(D2, OneBeat);
+    Beep(D1, OneBeat * 2);
 
+    Beep(C5, HalfBeat);
+    Beep(C5, HalfBeat);
+    Beep(D5, OneBeat);
+    Beep(D3, OneBeat);
+    Beep(D1, OneBeat);
+    Beep(C7, OneBeat);
 
-        Beep(C5, HalfBeat);
-        Beep(C5, HalfBeat);
-        Beep(D5, OneBeat);
-        Beep(D3, OneBeat);
-        Beep(D1, OneBeat);
-        Beep(C7, HalfBeat);
-        Beep(C6, OneBeat * 2);
-    
-        Beep(D4, HalfBeat);
-        Beep(D4, HalfBeat);
-        Beep(D3, OneBeat);
-        Beep(D1, OneBeat);
-        Beep(D2, OneBeat);
-        Beep(D1, OneBeat * 3);
-    
-        Sleep(500);
-    }
-    
-    return 0;
+    Beep(D4, HalfBeat);
+    Beep(D4, HalfBeat);
+    Beep(D3, OneBeat);
+    Beep(D1, OneBeat);
+    Beep(D2, OneBeat);
+    Beep(D1, OneBeat * 2);
+ Beep(C5, HalfBeat);
+    Beep(C5, HalfBeat);
+    Beep(D5, OneBeat);
+    Beep(D3, OneBeat);
+    Beep(D1, OneBeat);
+    Beep(C7, HalfBeat);
+    Beep(C6, OneBeat * 2);
 
+    Beep(D4, HalfBeat);
+    Beep(D4, HalfBeat);
+    Beep(D3, OneBeat);
+    Beep(D1, OneBeat);
+    Beep(D2, OneBeat);
+    Beep(D1, OneBeat * 3);
+
+    Sleep(500);
+}
+
+return 0;
 }
